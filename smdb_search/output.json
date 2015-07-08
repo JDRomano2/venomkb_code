@@ -1,0 +1,110 @@
+[
+  {
+    "subject": "COX",
+    "predicate": "INTERACTS_WITH",
+    "object": "S-nitrosothiol",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "bombesin",
+    "predicate": "ISA",
+    "object": "neuropeptide",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "COX",
+    "predicate": "PART_OF",
+    "object": "brain",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "noradrenaline",
+    "predicate": "INTERACTS_WITH",
+    "object": "COX",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "adrenaline",
+    "predicate": "INTERACTS_WITH",
+    "object": "COX",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "hypothalamic paraventricular nucleus",
+    "predicate": "PART_OF",
+    "object": "rat",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "neurons",
+    "predicate": "LOCATION_OF",
+    "object": "cysteine",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "hypothalamic paraventricular nucleus",
+    "predicate": "LOCATION_OF",
+    "object": "cysteine",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "neurons",
+    "predicate": "LOCATION_OF",
+    "object": "Fos",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "neurons",
+    "predicate": "LOCATION_OF",
+    "object": "nNOS",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "neurons",
+    "predicate": "LOCATION_OF",
+    "object": "Bombesin",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "COX-1",
+    "predicate": "PART_OF",
+    "object": "neurons",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "neurons",
+    "predicate": "LOCATION_OF",
+    "object": "bombesin",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "bombesin",
+    "predicate": "STIMULATES",
+    "object": "7-Nitroindazole",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "bombesin",
+    "predicate": "TREATS",
+    "object": "rat",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "nNOS",
+    "predicate": "STIMULATES",
+    "object": "COX-1",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "neurons",
+    "predicate": "PART_OF",
+    "object": "hypothalamic paraventricular nucleus",
+    "pmid": "24530741"
+  },
+  {
+    "subject": "neurons",
+    "predicate": "LOCATION_OF",
+    "object": "cyclooxygenase-1",
+    "pmid": "24530741"
+  }
+]

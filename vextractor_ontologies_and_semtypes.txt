@@ -1,0 +1,42 @@
+= VEXTRACTOR SEARCH STRATEGY DOCUMENTATION =
+documented by Joseph Romano 2015-01-28
+
+For each PMID passed to VExtractor, the following parameters are passed to NCBO Annotator as sequential API calls:
+
+===========================================================
+TO FIND POSSIBLE VENOMS / VENOM COMPOUNDS:
+
+1.  	Ontologies:	MESH,
+			SNOMEDCT
+	Semantic Types: "Amino acid, peptide, or protein"
+
+2.	Ontologies:	MESH,
+			SNOMEDCT
+	Semantic Types: "Hazardous or poisonous substance"
+
+3.	Ontologies:	SNOMEDCT
+	Semantic Types: "Amphibian",
+		 	"Reptile"
+
+IF NO MATCHES HAVE BEEN FOUND YET:
+
+4.    	Ontologies:	SNOMEDCT
+	Semantic Types:	"Biologically active substance"
+
+IF STILL NO MATCHES HAVE BEEN FOUND:
+
+5.	Ontologies:	[all NCBO ontologies]
+	Semantic Types: "Amino acid, peptide, or protein",
+		 	"Biologically active substance"
+
+===========================================================
+TO FIND EFFECTS:
+
+1. 	Ontologies:	SNOMEDCT,
+			WHO-ART
+	Semantic Types: "Finding",
+		 	"Organism function",
+			"Organ or tissue function",
+			"Disease or syndrome",
+			"Individual behavior",
+			"Neoplastic process"
